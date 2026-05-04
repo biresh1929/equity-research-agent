@@ -1,0 +1,62 @@
+[
+  {
+    "id": "f001",
+    "query": "Research AAPL",
+    "complexity": "medium",
+    "ground_truth_facts": [
+      "Apple is in the Technology sector",
+      "Apple generates revenue from iPhone, Mac, iPad, Services, and Wearables segments",
+      "Apple has a large cash reserve and pays dividends",
+      "Apple's ticker is AAPL on NASDAQ"
+    ],
+    "expected_sections": ["fundamentals", "technicals", "bull_case", "bear_case", "decision"]
+  },
+  {
+    "id": "f002",
+    "query": "Research MSFT",
+    "complexity": "medium",
+    "ground_truth_facts": [
+      "Microsoft is in the Technology sector",
+      "Microsoft generates revenue from Productivity and Business Processes, Intelligent Cloud, and More Personal Computing",
+      "Azure is Microsoft's cloud platform",
+      "Microsoft's ticker is MSFT on NASDAQ"
+    ],
+    "expected_sections": ["fundamentals", "technicals", "bull_case", "bear_case", "decision"]
+  },
+  {
+    "id": "f003",
+    "query": "Research TSLA",
+    "complexity": "medium",
+    "ground_truth_facts": [
+      "Tesla is an electric vehicle manufacturer",
+      "Tesla is in the Consumer Cyclical or Automotive sector",
+      "Tesla's ticker is TSLA on NASDAQ",
+      "Tesla also generates revenue from energy storage and solar products"
+    ],
+    "expected_sections": ["fundamentals", "technicals", "bull_case", "bear_case", "decision"]
+  },
+  {
+    "id": "f004",
+    "query": "Research NVDA",
+    "complexity": "high",
+    "ground_truth_facts": [
+      "Nvidia designs GPUs and AI accelerators",
+      "Nvidia is in the Technology or Semiconductor sector",
+      "Nvidia's ticker is NVDA on NASDAQ",
+      "Nvidia's data center segment has been a major growth driver"
+    ],
+    "expected_sections": ["fundamentals", "technicals", "bull_case", "bear_case", "risk_sizing", "decision"]
+  },
+  {
+    "id": "f005",
+    "query": "Research JPM",
+    "complexity": "medium",
+    "ground_truth_facts": [
+      "JPMorgan Chase is a major US bank",
+      "JPM is in the Financial Services or Banking sector",
+      "JPMorgan Chase's ticker is JPM on NYSE",
+      "JPM generates revenue from investment banking, commercial banking, and asset management"
+    ],
+    "expected_sections": ["fundamentals", "bull_case", "bear_case", "decision"]
+  }
+]

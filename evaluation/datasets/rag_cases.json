@@ -1,0 +1,67 @@
+[
+  {
+    "id": "rag001",
+    "query": "What are Apple's main risk factors from their latest 10-K?",
+    "complexity": "high",
+    "expected_agent": "sec",
+    "ground_truth_facts": [
+      "Apple faces supply chain concentration risk in Asia",
+      "Apple faces foreign exchange risk due to international revenues",
+      "Regulatory risks in EU and other jurisdictions",
+      "Competition from Android manufacturers"
+    ],
+    "expected_sections": ["risk_factors", "supply_chain", "regulatory"],
+    "expected_output_keywords": ["supply chain", "risk", "regulatory", "competition"]
+  },
+  {
+    "id": "rag002",
+    "query": "What does Microsoft's 10-K say about Azure growth and cloud competition?",
+    "complexity": "high",
+    "expected_agent": "sec",
+    "ground_truth_facts": [
+      "Microsoft competes with Amazon AWS and Google Cloud",
+      "Azure is part of the Intelligent Cloud segment",
+      "Cloud services are a strategic growth priority"
+    ],
+    "expected_sections": ["intelligent_cloud", "competition", "growth_strategy"],
+    "expected_output_keywords": ["Azure", "cloud", "AWS", "competition", "growth"]
+  },
+  {
+    "id": "rag003",
+    "query": "What liquidity and debt risks does Tesla disclose in their SEC filings?",
+    "complexity": "high",
+    "expected_agent": "sec",
+    "ground_truth_facts": [
+      "Tesla has raised capital through equity and debt offerings",
+      "Manufacturing capacity expansion requires significant capital",
+      "Working capital requirements may fluctuate"
+    ],
+    "expected_sections": ["liquidity", "capital_requirements", "debt"],
+    "expected_output_keywords": ["liquidity", "capital", "debt", "cash flow"]
+  },
+  {
+    "id": "rag004",
+    "query": "What are Nvidia's stated growth drivers in their latest annual report?",
+    "complexity": "high",
+    "expected_agent": "sec",
+    "ground_truth_facts": [
+      "Nvidia's data center / AI accelerator demand is a key growth driver",
+      "Gaming segment remains significant",
+      "Automotive and robotics are emerging segments"
+    ],
+    "expected_sections": ["growth_drivers", "segments", "strategy"],
+    "expected_output_keywords": ["data center", "AI", "gaming", "growth"]
+  },
+  {
+    "id": "rag005",
+    "query": "What forward guidance language does management use in the filing?",
+    "complexity": "medium",
+    "expected_agent": "sec",
+    "ground_truth_facts": [
+      "Forward-looking statements are subject to risks and uncertainties",
+      "Management uses cautious language about macroeconomic conditions"
+    ],
+    "expected_sections": ["forward_looking", "guidance"],
+    "expected_output_keywords": ["forward-looking", "guidance", "outlook", "uncertainty"]
+  }
+]

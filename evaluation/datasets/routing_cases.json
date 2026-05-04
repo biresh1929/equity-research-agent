@@ -1,0 +1,22 @@
+[
+  {"id": "r001", "query": "Research AAPL", "expected_agent": "stock", "complexity": "simple"},
+  {"id": "r002", "query": "Analyse Apple stock", "expected_agent": "stock", "complexity": "simple"},
+  {"id": "r003", "query": "Should I buy TSLA?", "expected_agent": "stock", "complexity": "simple"},
+  {"id": "r004", "query": "What is the investment thesis for MSFT?", "expected_agent": "stock", "complexity": "medium"},
+  {"id": "r005", "query": "Get me the 10-K for Apple", "expected_agent": "sec", "complexity": "simple"},
+  {"id": "r006", "query": "Analyse Tesla's latest annual report", "expected_agent": "sec", "complexity": "simple"},
+  {"id": "r007", "query": "What are the risk factors in Google's 10-K?", "expected_agent": "sec", "complexity": "medium"},
+  {"id": "r008", "query": "Review Microsoft's SEC filing for red flags", "expected_agent": "sec", "complexity": "medium"},
+  {"id": "r009", "query": "Full research on NVDA including SEC filings", "expected_agent": "combined", "complexity": "high"},
+  {"id": "r010", "query": "Give me a complete analysis of Amazon — fundamentals and 10-K", "expected_agent": "combined", "complexity": "high"},
+  {"id": "r011", "query": "AAPL stock price and technicals", "expected_agent": "stock", "complexity": "simple"},
+  {"id": "r012", "query": "What does Apple's cash flow statement say?", "expected_agent": "sec", "complexity": "medium"},
+  {"id": "r013", "query": "Bull and bear case for AMZN", "expected_agent": "stock", "complexity": "medium"},
+  {"id": "r014", "query": "META 10-Q analysis", "expected_agent": "sec", "complexity": "medium"},
+  {"id": "r015", "query": "Comprehensive investment brief for GOOGL", "expected_agent": "combined", "complexity": "high"},
+  {"id": "r016", "query": "RSI and MACD for SPY", "expected_agent": "stock", "complexity": "simple"},
+  {"id": "r017", "query": "What are Nvidia's stated growth drivers in their annual filing?", "expected_agent": "sec", "complexity": "medium"},
+  {"id": "r018", "query": "Research JPM stock", "expected_agent": "stock", "complexity": "simple"},
+  {"id": "r019", "query": "Is NFLX a buy or sell right now?", "expected_agent": "stock", "complexity": "simple"},
+  {"id": "r020", "query": "Full combined analysis for MSFT including 10-K deep dive", "expected_agent": "combined", "complexity": "high"}
+]

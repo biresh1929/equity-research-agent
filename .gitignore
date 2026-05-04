@@ -1,0 +1,42 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and tool state
+.chainlit/
+.claude/
+.deepeval/
+.files/
+.ipynb_checkpoints/
+
+# Generated project data
+data/chroma_db/
+data/enrichment_cache/
+data/audit_log.jsonl
+data/sec_filings/
+
+# Evaluation outputs
+evaluation/results/
